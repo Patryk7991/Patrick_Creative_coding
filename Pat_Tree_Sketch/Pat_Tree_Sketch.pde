@@ -20,6 +20,25 @@ String[] benchDates = {
   "Week 15",
 };
 
+float[] PreacherWeights = {20.0, 22.5, 25.0, 25.0, 26.0, 27.5, 27.5, 28.0, 28.5, 28.5, 28.5, 30.0, 30.5, 30.0
+};
+String[] PreacherWeights = {
+  "Week 1",
+  "Week 2",
+  "Week 3",
+  "Week 4",
+  "Week 5",
+  "Week 6",
+  "Week 7",
+  "Week 8",
+  "Week 9",
+  "Week 10",
+  "Week 11",
+  "Week 12",
+  "Week 13",
+  "Week 14",
+  "Week 15",
+
 void setup() {
   size(800, 600);
 }
@@ -30,7 +49,7 @@ void draw() {
   // Tree trunk
   fill(120, 75, 40);
   rect(380, 300, 40, 250);
-    //the actual tree itself
+    //the actual code to the tree itself
   fill(34, 139, 34);
   ellipse(400, 230, 300, 300);
   //next is a dotted line which I did have to use AI for as I wasn't sure I did this with the following prompt: I am trying to create a dotted line now down the middle how do I do that?
@@ -41,7 +60,7 @@ strokeWeight(3);
 for (int y = 80; y < 600; y += 20) {
   line(400, y, 400, y + 10);
   drawLeaf(280, 280);
-drawLeaf(450, 180);  
+  drawLeaf(450, 180);
 }
 }
 
