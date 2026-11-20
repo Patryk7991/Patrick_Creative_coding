@@ -20,6 +20,25 @@ String[] benchDates = {
   "Week 15",
 };
 
+String[] benchComments = {
+  "Week 1: Felt comfortable with the weight",
+  "Week 2: Form was improving",
+  "Week 3: Struggled with the last few reps",
+  "Week 4: decided to up the weight as I was getting comfortable",
+  "Week 5: form was good but dipped slightly but overall very good",
+  "Week 6: Performing reps was good however it was definitely too heavy for a second set",
+  "Week 7: Assisted reps after the first one",
+  "Week 8: worked on it independently no with no spotter through the week",
+  "Week 9: only a 2.5kg difference but a lot of discomfort",
+  "Week 10: Tried 80kg and ended very bad as I needed assistant reps after the first one",
+  "Week 11: Failed the set was too heavy pushed too quick",
+  "Week 12: 81.5kg was a bit of a struggle after the first rep and again I did need help",
+  "Week 13: same as 81.5kg was good but did need a bit of help",
+  "Week 14: 83.5kg felt as if I was fighting for dear life",
+  "Week 15: Attempted my personal best again and failed again"
+};
+
+
 float[] PreacherWeights = {20.0, 22.5, 25.0, 25.0, 26.0, 27.5, 27.5, 28.0, 28.5, 28.5, 28.5, 30.0, 30.5, 30.0
 };
 String[] PreacherWeights = {
@@ -38,6 +57,10 @@ String[] PreacherWeights = {
   "Week 13",
   "Week 14",
   "Week 15",
+};
+
+String[] preacherComments = {
+  
 
 void setup() {
   size(800, 600);
